@@ -1,0 +1,7 @@
+<%= render 'comment', :comment => @comment %>
+
+<% @children.each do |child| %>
+	<%= render 'comment', :comment => child %>
+<% end %>
+
+<%= render 'reply_comment', :comment => @new_comment %>

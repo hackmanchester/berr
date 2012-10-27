@@ -1,0 +1,36 @@
+<%= form_for @comment, :as => :berr, :url => berrs_path do |f| %>
+	<% if @comment.errors.any? %>
+    <div class="error_messages">
+      <h2>Form is invalid</h2>
+      <ul>
+        <% for message in @comment.errors.full_messages %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+  	<label>Tags</label>
+		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="">
+  </div>
+
+  <div class="field">
+    <%= f.label :text %>
+    <%= f.text_area :text %>
+  </div>
+  <div class="actions"><%= f.submit %></div>
+<% end %>
+
+<script>
+	$("#comment-tag-input").select2({
+	                tags:[],
+	                tokenSeparators: [",", " "],
+	                maximumSelectionSize: 3
+	              });
+</script>

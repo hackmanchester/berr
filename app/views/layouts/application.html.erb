@@ -12,7 +12,10 @@
 
 <footer>
 	<% if current_user %>
-	<p>You are logged in as <%= current_user.email %> <%= link_to "Logout", logout_url %></p>
+	<p>
+		<%= gravatar_for current_user.email, :size => 32 %>
+		You are logged in as <%= current_user.email %> <%= link_to "Logout", logout_url %>
+	</p>
 	<% end %>
 	<p>&copy; 2012 Rob Gough.</p>
 </footer>

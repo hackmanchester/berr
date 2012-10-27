@@ -1,1 +1,15 @@
-berr index
+<%= "There are no threads yet! Why not create one? " if @comments.count < 1 %>
+
+<%= link_to "+ New Berr", new_berr_url %>
+
+<% @comments.each do |c| %>
+
+<div class="thread-comment">
+	<p><%= link_to c.title, berr_path(c) %></p>
+	<% if current_user.admin? || c.user == current_user %>
+		<%= link_to "edit", edit_berr_path(c) %>
+		<%= link_to "remove", berr_path(c), :confirm => "Are you sure?", :method => :delete %>
+	<% end %>
+</div>
+
+<% end %>
