@@ -1,0 +1,698 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"send",
+				"send_welcome"
+			],
+			[
+				"confirm_t",
+				"confirm_token"
+			],
+			[
+				"confirm_token",
+				"confirm_token_sent_at"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"height",
+				"line-height"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix",
+				"name": "*.rbc"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"migration",
+				"Rails Latest Migration: Open latest Rails migration"
+			],
+			[
+				"last",
+				"Rails Latest Migration: Open latest Rails migration"
+			],
+			[
+				"mig",
+				"Rails Latest Migration: Open latest Rails migration"
+			],
+			[
+				"markdown",
+				"Markdown Preview: current file in browser"
+			],
+			[
+				"markdwn",
+				"Markdown Preview: current file in Sublime Text"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inser",
+				"Color Picker: Insert Color"
+			],
+			[
+				"color",
+				"Color Picker: Insert Color"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Markdown Preview: current file in browser"
+			],
+			[
+				"snippet",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"git diff cu",
+				"Git: Diff Current File"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robgough/Dropbox/coding/giglr3/.gitignore",
+		"/Users/robgough/Dropbox/coding/datetest.rb",
+		"/Volumes/robdata/Unsorted/Adobe CS6 Master Collection With Crack - Mac OSX/Adobe CS6 Master Collection for Mac OSX (with crack).nfo",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/application_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/users_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/users/edit.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/users/index.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/models/user.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/config/routes.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/layouts/application.html.erb",
+		"/Users/robgough/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/robgough/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20121021204359_add_admin_to_users.rb",
+		"/Users/robgough/Dropbox/coding/datetest.sh",
+		"/Users/robgough/.labrador/Gemfile",
+		"/Users/robgough/Dropbox/coding/Ruby/obtvse/.rvmrc",
+		"/Users/robgough/Dropbox/coding/Ruby/pinkegobox.net/.rvmrc",
+		"/Users/robgough/Dropbox/coding/giglr3/app/helpers/application_helper.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/users/new.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/sessions/new.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/password_resets/new.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/password_resets/edit.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/pages/welcome.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/confirm_users/new.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/gigs/edit.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/gigs/index.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/gigs/new.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/gigs/show.html.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/sessions_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/password_resets_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/Gemfile",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120826165123_add_blocked_to_users.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/models/gig.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/confirm_users_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/controllers/gigs_controller.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/mailers/user_mailer.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/user_mailer/welcome.text.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/user_mailer/gig_confirm.text.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120818203154_add_confirm_to_gigs.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/models/contributor.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120818161237_create_contributors.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120816223540_add_password_reset_to_users.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/app/views/user_mailer/password_reset.text.erb",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120818153110_add_index_to_users.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/README.md",
+		"/Users/robgough/Dropbox/coding/giglr3/README.rdoc",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120816221756_add_auth_token_to_users.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/config/environments/development.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/config/environments/production.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/db/migrate/20120816214053_create_users.rb",
+		"/Users/robgough/Dropbox/coding/giglr3/public/index.html",
+		"/Users/robgough/Dropbox/coding/css/discussion.css",
+		"/Users/robgough/Dropbox/coding/css/discussion.html",
+		"/Users/robgough/Dropbox/coding/css/normalize.css",
+		"/Users/robgough/Dropbox/coding/css/discussion_layout.html",
+		"/Users/robgough/Dropbox/coding/css/discussion_layout",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/layouts/application.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/pages/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/volunteers/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/shows/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/models/blog.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/controllers/pages_controller.rb",
+		"/Users/robgough/Desktop/northernair_live_dump_20120730_2223",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/mailers/user_mailer.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/controllers/requests_controller.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/models/volunteer.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/controllers/volunteers_controller.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/controllers/shows_controller.rb",
+		"/Users/robgough/Desktop/northernair_live_dump_20120730_2159",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/config/config.yml",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/user_mailer/song_request.text.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/config/routes.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/models/photo.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/controllers/photos_controller.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/photos/edit.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/assets/javascripts/gallery.js",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/photos/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/photos/show.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/Gemfile",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/config/authorization_rules.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/giglr/config/config.yml",
+		"/Users/robgough/Dropbox/Documents/Notes/SYSC 2012 July 16th.txt",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/uploaders/photo_uploader.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/public/uploads/tmp/20120318-1507-65609-4086/thumb_Untitled-1.png",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/public/uploads/tmp/20120318-1507-65609-4086/Untitled-1.png",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/pages/show.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/db/migrate/20120714152702_create_photos.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/models/track.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/photos/new.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/photos/_fields.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/helpers/application_helper.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/gallery/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/gallery/show.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/layouts/application.html.erb.old",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/models/page.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/volunteers/show.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/requests/index.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/.rvmrc",
+		"/etc/motd",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/db/migrate/20120708154041_create_pages.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/pages/_fields.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/pages/new.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/views/pages/edit.html.erb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/lib/development_mail_interceptor.rb",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/app/assets/stylesheets/bootstrap.css",
+		"/Users/robgough/.zshrc",
+		"/Users/robgough/.oh-my-zsh/themes/gough.zsh-theme",
+		"/Users/robgough/Dropbox/coding/Ruby/Rails/northernair/.powrc",
+		"/Users/robgough/Desktop/testing.rb",
+		"/Users/robgough/Desktop/hello.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"password_digest",
+			"header",
+			"time",
+			"users",
+			"	\n",
+			"thumb",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/Users/robgough/Dropbox/coding/HackManchester/berr",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"auto_name": "*.rbc",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"gitigno",
+				".gitignore"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"admin",
+				"db/migrate/20121021204359_add_admin_to_users.rb"
+			],
+			[
+				"index",
+				"app/views/gigs/index.html.erb"
+			],
+			[
+				"config",
+				"config.yml"
+			],
+			[
+				"new",
+				"app/views/gigs/new.html.erb"
+			],
+			[
+				"session",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"applicationhelp",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"users_",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"sessioncon",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"session/new",
+				"app/views/sessions/new.html.erb"
+			],
+			[
+				"migrat",
+				"db/migrate/20120826165123_add_blocked_to_users.rb"
+			],
+			[
+				"gig.rb",
+				"app/models/gig.rb"
+			],
+			[
+				"git.rb",
+				"app/views/gigs/edit.html.erb"
+			],
+			[
+				"gig",
+				"app/models/gig.rb"
+			],
+			[
+				"user_mail",
+				"app/mailers/user_mailer.rb"
+			],
+			[
+				"contr",
+				"app/models/contributor.rb"
+			],
+			[
+				"sessions_contr",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				".g",
+				".gitignore"
+			],
+			[
+				"welcome",
+				"app/views/pages/welcome.html.erb"
+			],
+			[
+				"a",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"password",
+				"app/controllers/password_resets_controller.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"development.rb",
+				"config/environments/development.rb"
+			],
+			[
+				"usermailer",
+				"app/views/user_mailer/password_reset.text.erb"
+			],
+			[
+				"application_contr",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sessions",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"new.",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"blog",
+				"app/models/blog.rb"
+			],
+			[
+				"pages",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"shows_c",
+				"app/controllers/shows_controller.rb"
+			],
+			[
+				"request",
+				"app/views/user_mailer/song_request.text.erb"
+			],
+			[
+				"config.yml",
+				"config/config.yml"
+			],
+			[
+				"volunte",
+				"app/models/volunteer.rb"
+			],
+			[
+				"volunteers",
+				"app/controllers/volunteers_controller.rb"
+			],
+			[
+				"index.",
+				"app/views/pages/index.html.erb"
+			],
+			[
+				"show",
+				"app/views/photos/show.html.erb"
+			],
+			[
+				"auto",
+				"config/authorization_rules.rb"
+			],
+			[
+				"edit",
+				"app/views/photos/edit.html.erb"
+			],
+			[
+				"applcation",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"create",
+				"db/migrate/20101224132309_create_volunteers.rb"
+			],
+			[
+				"photos",
+				"db/migrate/20120714152702_create_photos.rb"
+			],
+			[
+				"controller",
+				"app/controllers/photos_controller.rb"
+			],
+			[
+				"aplication",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				".rvm",
+				".rvmrc"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"mailer",
+				"lib/development_mail_interceptor.rb"
+			],
+			[
+				"mail",
+				"app/mailers/user_mailer.rb"
+			],
+			[
+				".pow",
+				".powrc"
+			],
+			[
+				"pow",
+				".powrc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true
+}
