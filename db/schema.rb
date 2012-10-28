@@ -11,17 +11,38 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121027195548) do
+ActiveRecord::Schema.define(:version => 20121028101810) do
 
   create_table "comments", :force => true do |t|
-    t.string   "title",                         :null => false
-    t.string   "text",                          :null => false
-    t.integer  "user_id",                       :null => false
+    t.string   "title"
+    t.string   "text",                              :null => false
+    t.integer  "user_id",                           :null => false
     t.integer  "parent_id"
-    t.boolean  "promoted",   :default => false, :null => false
-    t.boolean  "deleted",    :default => false, :null => false
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.boolean  "promoted",       :default => false, :null => false
+    t.boolean  "deleted",        :default => false, :null => false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+    t.string   "text_converted"
+  end
+
+  create_table "tag_comment_links", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "comment_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tag_user_links", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tags", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|

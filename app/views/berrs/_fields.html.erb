@@ -1,14 +1,5 @@
-<%= form_for @comment, :as => :berr, :url => berrs_path do |f| %>
-	<% if @comment.errors.any? %>
-    <div class="error_messages">
-      <h2>Form is invalid</h2>
-      <ul>
-        <% for message in @comment.errors.full_messages %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
+
+  <%= render 'shared/error_messages', :object => f.object %>
 
   <div class="field">
     <%= f.label :title %>
@@ -17,20 +8,18 @@
 
   <div class="field">
   	<label>Tags</label>
-		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="">
+		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="<%= f.object.tag_string %>">
   </div>
 
   <div class="field">
     <%= f.label :text %>
     <%= f.text_area :text %>
   </div>
-  <div class="actions"><%= f.submit %></div>
-<% end %>
 
 <script>
-	$("#comment-tag-input").select2({
-	                tags:[],
-	                tokenSeparators: [",", " "],
-	                maximumSelectionSize: 3
-	              });
-</script>
+  $("#comment-tag-input").select2({
+                  tags:[],
+                  tokenSeparators: [",", " "],
+                  maximumSelectionSize: 3
+                });
+  </script>

@@ -11,3 +11,52 @@
  *= require_self
  *= require_tree .
  */
+
+ body, html {
+ 	font-family: "Open Sans", verdana;
+ 	background-image: url("/assets/nasty_fabric.png");
+ }
+
+ #container {
+ 	width:800px;
+ 	margin:0px auto;
+ 	background:rgba(225, 255, 255, 0.5);
+ 	padding:20px;
+ }
+
+ header span {
+ 	font-size: x-small;
+ 	color:#666666;
+ }
+
+header h1 {
+	font-size:normal;
+}
+
+.button {
+	border:1px solid #cccccc;
+	color:#333333;
+	background-color:#ff6600;
+	padding:5px;
+}
+
+.tag {
+	padding:5px;
+}
+
+/* Hyperlinks */
+
+a {
+	text-decoration: none;
+	color:#cc3333;
+}
+
+/* Navigation */
+
+ul {
+	list-style: none;
+}
+
+li {
+	display:inline;
+}

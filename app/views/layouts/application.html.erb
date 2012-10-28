@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Berr</title>
+  <title>Tag-Based Discussions | Team Berr</title>
+  
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<%= yield %>
+<header>
+	<h1>Tag-Based Discussions - Team Berr<span>Created at HackManchester 2012</span></h1>
+</header>
+
+<nav>
+		<ul>
+			<li><%= gravatar_for current_user.email, :size => 32 %><%= link_to "Home", root_url %></li>
+			<li><%= link_to "All", all_berrs_path %></li>
+			<%= raw "<li>#{current_user.email}</li>" if current_user %>
+			<%= raw "<li>#{link_to "Register", register_url}</li>" if !current_user %>
+			<%= raw "<li>#{link_to "Log in ", login_url}</li>" if !current_user %>
+			<%= raw "<li>#{link_to "Log out", logout_url}</li>" if current_user %>
+		</ul>
+	</nav>
+
+<div id="container">
+
+	<%= yield %>
+
+</div>
 
 <footer>
 	<% if current_user %>

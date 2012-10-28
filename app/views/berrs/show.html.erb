@@ -1,6 +1,6 @@
 <%= render 'comment', :comment => @comment %>
 
-<% @children.each do |child| %>
+<% @comment.children.each do |child| %>
 	<%= render 'comment', :comment => child %>
 <% end %>
 

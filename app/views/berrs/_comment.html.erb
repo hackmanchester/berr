@@ -1,5 +1,7 @@
 <div class="comment">
 	<h3><%= gravatar_for comment.user.email, :size => 32 %><%= comment.title %></h3>
-	<p><%= comment.text %></p>
+	<p><%= raw comment.text_converted %></p>
+	<p><%= comment.created_at.to_s %></p>
+	<p><%= raw show_tags(comment.tags) %></p>
 </div>
 <hr />

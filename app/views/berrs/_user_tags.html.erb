@@ -1,0 +1,16 @@
+<div id="user_tags">
+	<%= form_tag user_path(current_user.id), :method => :put do %>
+   <div class="field">
+		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="<%= tags_for(current_user.tags) %>">
+  </div>
+  <div class="actions"><%= submit_tag "Save" %></div>
+<% end %>
+</div>
+
+<script>
+  $("#comment-tag-input").select2({
+                  tags:[],
+                  tokenSeparators: [",", " "],
+                  maximumSelectionSize: 0
+                });
+  </script>

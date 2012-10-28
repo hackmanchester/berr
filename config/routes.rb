@@ -4,7 +4,11 @@ Berr::Application.routes.draw do
   get "logout" => "sessions#destroy", :as => "logout"
   resources :users  
   resources :sessions
-  resources :berrs
+  resources :berrs do
+  	collection do
+      get :all
+    end
+  end
 
   root :to => "berrs#index"  
 end
