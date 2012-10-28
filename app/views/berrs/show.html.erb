@@ -1,4 +1,4 @@
-<%= render 'comment', :comment => @comment %>
+<%= render 'primary_comment', :comment => @comment %>
 
 <% @comment.children.each do |child| %>
 	<%= render 'comment', :comment => child %>

@@ -1,7 +1,7 @@
-<%= form_for @comment, :as => :berr, :url => berrs_path do |f| %>
+<%= form_for @comment, :as => :berr, :url => berrs_path, :html => { :class => "well" } do |f| %>
 
 	<%= render "fields", :f => f %>
 
-  <div class="actions"><%= f.submit %></div>
+  <div class="actions"><%= f.button "Post", :class => "btn btn-danger" %></div>
 <% end %>
 

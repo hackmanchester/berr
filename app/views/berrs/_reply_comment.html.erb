@@ -1,9 +1,14 @@
-<%= form_for comment, :as => :berr, :url => berrs_path do |f| %>
-  <%= render 'shared/error_messages', :object => f.object %>
-  <input name="berr[parent_id]" type="hidden" value="<%= comment.parent_id %>" />
- 
-  <div class="field">
-    <%= f.text_area :text %>
-  </div>
-  <div class="actions"><%= f.submit %></div>
-<% end %>
+
+<div class="well">
+  <%= form_for comment, :as => :berr, :url => berrs_path do |f| %>
+    <%= render 'shared/error_messages', :object => f.object %>
+    <input name="berr[parent_id]" type="hidden" value="<%= comment.parent_id %>" />
+   
+    <div class="field">
+      <%= f.text_area :text, :class => "span8" %>
+    </div>
+    <div class="actions">
+      <%= f.button "Reply", :class => "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>

@@ -12,7 +12,7 @@ module ApplicationHelper
 		tag_string = ""
 		if tags && tags.count > 0
 			tags.each do |t|
-				tag_string = tag_string + "<span class=\"tag\">#{t.name}</span>"
+				tag_string = tag_string + "<span class=\"tag label label-success\">#{t.name}</span>"
 			end
 		end
     tag_string

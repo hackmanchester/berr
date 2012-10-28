@@ -5,6 +5,7 @@ class BerrsController < ApplicationController
 		#@comments = Comment.where(:deleted => false, :parent_id => nil)
 		
 		@comments = current_user.tags.collect(&:comments).flatten
+		@comments.sort! { |a,b| b.created_at <=> a.created_at }
 
 	end
 

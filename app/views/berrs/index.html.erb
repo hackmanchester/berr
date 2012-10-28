@@ -2,21 +2,29 @@
 
 <%= "There are no threads yet! Why not create one? " if @comments.count < 1 %>
 
-<%= link_to "+ New Berr", new_berr_url, :class => "button" %>
-
 <% @comments.each do |c| %>
 
-<div class="thread-comment">
+<hr />
+<div class="row">
+	<div class="span3">
+		<%= gravatar_for c.user.email, :size => 32, :class => "img-circle" %>
+		<%= c.user.email %>
+		<%= raw show_tags(c.tags) %>
+		<br />
+		<%= time_ago_in_words(c.created_at) %> ago
+	</div>
+  <div class="span8">
 	<p>
-		<%= gravatar_for c.user.email %>
-		<%= link_to c.title, berr_path(c) %>
-	</p>
-	<p><%= c.created_at.to_s %></p>
-	<p><%= raw show_tags(c.tags) %></p>
+	<%= link_to c.title, berr_path(c) %>
+<br />
+
 	<% if current_user.admin? || c.user == current_user %>
-		<%= link_to "edit", edit_berr_path(c) %>
-		<%= link_to "remove", berr_path(c), :confirm => "Are you sure?", :method => :delete %>
-	<% end %>
+			<%= link_to "edit", edit_berr_path(c), :class => "btn btn-mini btn-danger" %>
+			<%= link_to "remove", berr_path(c), :confirm => "Are you sure?", :method => :delete, :class => "btn btn-mini btn-danger" %>
+		<% end %>
+
+	</p>
+  </div>
 </div>
 
 <% end %>

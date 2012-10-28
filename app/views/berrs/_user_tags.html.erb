@@ -1,15 +1,18 @@
 <div id="user_tags">
 	<%= form_tag user_path(current_user.id), :method => :put do %>
    <div class="field">
-		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="<%= tags_for(current_user.tags) %>">
+		<input type="hidden" id="comment-tag-input" name="tags" style="width:600px" value="<%= tags_for(current_user.tags) %>">
+  	<%= submit_tag "Update", :class => "btn btn-info btn-small" %>
   </div>
-  <div class="actions"><%= submit_tag "Save" %></div>
+  <br />
+  <div class="actions"></div>
 <% end %>
 </div>
 
 <script>
   $("#comment-tag-input").select2({
                   tags:[],
+                  placeholder: "click and type here to add tags",
                   tokenSeparators: [",", " "],
                   maximumSelectionSize: 0
                 });

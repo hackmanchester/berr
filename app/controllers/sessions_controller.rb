@@ -1,5 +1,7 @@
 class SessionsController < ApplicationController
 	def new
+		@jumbotron_header = "Berr"
+		@jumbotron_lead = "The Tag-Based Discussion Forum"
   end
 
   def create

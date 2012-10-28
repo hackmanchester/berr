@@ -16,6 +16,8 @@ class Comment < ActiveRecord::Base
 
   before_save :convert_to_markdown
 
+  default_scope order('created_at DESC')
+
   def tag_string
   	output = ""
 

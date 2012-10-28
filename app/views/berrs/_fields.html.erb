@@ -3,22 +3,24 @@
 
   <div class="field">
     <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class => "span8" %>
   </div>
 
   <div class="field">
   	<label>Tags</label>
-		<input type="hidden" id="comment-tag-input" name="tags" style="width:300px" value="<%= f.object.tag_string %>">
+		<input type="hidden" id="comment-tag-input" class="span8" name="tags" style="width:300px" value="<%= f.object.tag_string %>">
   </div>
+  <br /><br />
 
   <div class="field">
     <%= f.label :text %>
-    <%= f.text_area :text %>
+    <%= f.text_area :text, :class => "span8" %>
   </div>
 
 <script>
   $("#comment-tag-input").select2({
                   tags:[],
+                  placeholder: "click and type here to add tags",
                   tokenSeparators: [",", " "],
                   maximumSelectionSize: 3
                 });

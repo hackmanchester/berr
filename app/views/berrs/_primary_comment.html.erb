@@ -1,9 +1,18 @@
-<hr />
+<p>
+<%= time_ago_in_words(comment.created_at) + " ago" %>
+<%= raw show_tags(comment.tags) %>
+
+</p>
+<div class="hero-unit">
+	<h2>
+		<%= comment.title %>
+	</h2>
+</div>
+
 <div class="row">
 	<div class="span3">
 		<%= gravatar_for comment.user.email, :size => 48, :class => "img-circle" %>
-		<%= comment.user.email %><br />
-		<%= time_ago_in_words(comment.created_at) %> ago
+		<%= comment.user.email %>
 	</div>
   <div class="span8">
 	<p><%= raw comment.text_converted %></p>
